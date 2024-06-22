@@ -1,0 +1,55 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/bg-pattern-bottom.svg);
+    background-color: hsl(185, 75%, 39%);
+    height: 100vh;
+    font-family: Kumbh Sans;
+}
+.content{
+    width: 350px;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+}
+.img2{
+    width: 105px;
+    height: 105px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    margin-top: -50px;
+}
+#img2{
+    border-radius: 50%;
+}
+.name{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 18px;
+}
+hr{
+    width: 100%;
+    opacity: .2;
+}
+.stats{
+    display: flex;
+    width: 80%;
+    gap: 70px;
+    text-align: center;
+}
+.stats p{
+    margin-top: -15px;
+    font-size: 10px;
+}
+
+
+
